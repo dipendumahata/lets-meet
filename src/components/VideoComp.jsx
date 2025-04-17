@@ -13,8 +13,6 @@ const VideoComp = () => {
       let myMeeting = async (element) => {
         if(!roomID || !containerRef.current) return;
         // generate Kit Token
-        //  const appID = 571494298;
-        //  const serverSecret = "cfbdfd3e74b317a507957389bbb76a9c";
 
          const appID = Number(import.meta.env.VITE_APP_ID); // Replace with your app ID
          

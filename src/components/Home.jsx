@@ -1,5 +1,5 @@
 import React from 'react';
-import Navber from './Navbar';
+import Navbar from './Navbar';
 import Footer from './Footer';   
 import Testimonial from './Testimonial';
 import Faq from './Faq';
@@ -10,7 +10,7 @@ import Hero from './Hero';
 const Home = () => {
   return (
     <div>
-        <Navber />
+        <Navbar />
         <Hero />
         <PartnerLogo />
         <Testimonial />
